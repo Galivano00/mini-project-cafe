@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cafe Marketing Page</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans bg-gray-100 text-gray-800">
+
+  <!-- Header Section -->
+  <header class="bg-purple-700 text-white text-center py-6">
+    <h1 class="text-3xl font-bold">Welcome to Milena Cafe</h1>
+    <p class="text-lg mt-2">Your perfect spot for coffee and treats!</p>
+  </header>
+
+  <!-- Navigation Bar -->
+  <nav class="bg-white shadow-md py-4">
+    <div class="container mx-auto flex justify-center space-x-6">
+      <a href="#menu" class="text-purple-700 font-semibold hover:text-purple-500">Menu</a>
+      <a href="#about" class="text-purple-700 font-semibold hover:text-purple-500">About Us</a>
+      <a href="#contact" class="text-purple-700 font-semibold hover:text-purple-500">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="text-center py-16 bg-gradient-to-r from-orange-400 to-red-500 text-white">
+    <h2 class="text-4xl font-bold mb-4">Freshly Brewed Coffee, Every Day</h2>
+    <p class="text-lg mb-6">Discover the best blends and pair them with delicious pastries.</p>
+    <a href="#menu" class="bg-white text-purple-700 font-bold py-3 px-6 rounded-full hover:bg-gray-100 transition">Explore Menu</a>
+  </section>
+
+  <!-- Menu Section -->
+  <section id="menu" class="py-16">
+    <h2 class="text-center text-3xl text-purple-700 font-bold mb-8">Our Menu</h2>
+    <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div class="bg-white shadow-md rounded-lg p-6 text-center hover:shadow-lg transition">
+        <h3 class="text-orange-500 text-xl font-semibold mb-2">Cappuccino</h3>
+        <p class="text-gray-700 mb-4">Rich espresso topped with frothy milk.</p>
+        <p class="text-purple-700 font-bold text-lg">$3.50</p>
+      </div>
+      <div class="bg-white shadow-md rounded-lg p-6 text-center hover:shadow-lg transition">
+        <h3 class="text-orange-500 text-xl font-semibold mb-2">Blueberry Muffin</h3>
+        <p class="text-gray-700 mb-4">Perfectly sweet and fluffy muffins.</p>
+        <p class="text-purple-700 font-bold text-lg">$2.50</p>
+      </div>
+      <div class="bg-white shadow-md rounded-lg p-6 text-center hover:shadow-lg transition">
+        <h3 class="text-orange-500 text-xl font-semibold mb-2">Latte</h3>
+        <p class="text-gray-700 mb-4">Espresso with steamed milk and a touch of foam.</p>
+        <p class="text-purple-700 font-bold text-lg">$4.00</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-16 bg-yellow-100">
+    <h2 class="text-center text-3xl text-purple-700 font-bold mb-8">About Us</h2>
+    <p class="text-center max-w-2xl mx-auto text-gray-700">
+      Milena Cafe is a cozy spot in town that serves delightful coffee and pastries. We are committed to providing an inviting atmosphere for our customers to relax and enjoy their day.
+    </p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-16">
+    <h2 class="text-center text-3xl text-purple-700 font-bold mb-8">Contact Us</h2>
+    <form class="max-w-lg mx-auto bg-white shadow-md rounded-lg p-6">
+      <div class="mb-4">
+        <input type="text" placeholder="Your Name" class="w-full border-gray-300 rounded-lg py-3 px-4 focus:outline-none focus:ring focus:ring-purple-300">
+      </div>
+      <div class="mb-4">
+        <input type="email" placeholder="Your Email" class="w-full border-gray-300 rounded-lg py-3 px-4 focus:outline-none focus:ring focus:ring-purple-300">
+      </div>
+      <div class="mb-4">
+        <textarea placeholder="Your Message" class="w-full border-gray-300 rounded-lg py-3 px-4 focus:outline-none focus:ring focus:ring-purple-300"></textarea>
+      </div>
+      <button type="submit" class="bg-purple-700 text-white font-bold py-3 px-6 rounded-lg w-full hover:bg-purple-800 transition">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-purple-700 text-white text-center py-4">
+    <p>&copy; 2024 Milena Cafe. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
